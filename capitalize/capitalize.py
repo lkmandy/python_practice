@@ -6,17 +6,15 @@ import random
 import re
 import sys
 
+
 # Complete the solve function below.
 def solve(s):
-    return s.title()
+    name = s.split(" ")
+    capitalize_name = [w.capitalize() for w in name]
+    return " ".join(capitalize_name)
+
 
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
     s = input()
-
     result = solve(s)
-
-    fptr.write(result + '\n')
-
-    fptr.close()
+    print(result)
