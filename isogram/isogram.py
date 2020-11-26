@@ -3,5 +3,5 @@ import re
 
 
 def is_isogram(word):
-    word = re.sub(r"[^a-z]", "", word.lower().replace(' ', ''))
+    word = re.sub(r"[^a-z]", "", word.lower().strip())
     return len(word) == len(set(word))
