@@ -4,4 +4,5 @@ def read_file(fname):
         print(data)
 
 
-read_file("ClassMarker_Test_Taking_Guide.pdf")
+if __name__ == "__main__":
+    read_file("life.html")
