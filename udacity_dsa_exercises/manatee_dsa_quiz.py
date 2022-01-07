@@ -1,7 +1,9 @@
-"""input manatees: a list of "manatees", where one manatee is represented by a dictionary
-a single manatee has properties like "name", "age", et cetera
-n = the number of elements in "manatees"
-m = the number of properties per "manatee" (i.e. the number of keys in a manatee dictionary)"""
+"""
+- input manatees: a list of "manatees", where one manatee is represented by a dictionary
+- a single manatee has properties like "name", "age", et cetera
+- n = the number of elements in "manatees"
+- m = the number of properties per "manatee" (i.e. the number of keys in a manatee dictionary)
+"""
 
 """ Time Complexity: O(n) """
 def example1(manatees):
