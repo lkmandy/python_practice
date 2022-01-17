@@ -18,10 +18,10 @@ def get_fib(position):
     if type(position) != int:
         raise TypeError("The input must be an integer")
     
-    if position < 1:
+    if position < 0:
         raise ValueError("The input must be an integer")
     
 # Test cases
-print get_fib(9)
-print get_fib(11)
-print get_fib(1000)
+print(get_fib(9))
+print(get_fib(11))
+print(get_fib(1000))

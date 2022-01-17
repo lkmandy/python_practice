@@ -97,25 +97,25 @@ print(ll.head.data)
 
 # Test get_position
 # Should print 3
-print ll.head.next.next.data
+print(ll.head.next.next.data)
 
 # Should also print 3
-print ll.get_position(3).data
+print(ll.get_position(3).data)
 
 # Test insert
 ll.insert(e4,3)
 
 # Should print 4 now
-print ll.get_position(3).data
+print(ll.get_position(3).data)
 
 # Test delete
 ll.delete(1)
 
 # Should print 2 now
-print ll.get_position(1).data
+print(ll.get_position(1).data)
 
 # Should print 4 now
-print ll.get_position(2).data
+print(ll.get_position(2).data)
 
 # Should print 3 now
-print ll.get_position(3).data
+print(ll.get_position(3).data)
